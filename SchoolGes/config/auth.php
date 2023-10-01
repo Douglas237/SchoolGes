@@ -23,7 +23,7 @@ return [
         // 'passwords' => 'users',
 
         'guard' => 'api',
-        'passwords' => 'users', 
+        'passwords' => 'users',
     ],
 
     /*
@@ -49,7 +49,7 @@ return [
             'provider' => 'users',
         ],
         'api' => [
-            'driver' => 'jwt',
+            'driver' =>'jwt',
             'provider' => 'users',
         ],
         'admins_circonscription' => [
@@ -98,7 +98,7 @@ return [
         ],
         'chef_etablissement' => [
             'driver' => 'eloquent',
-            'model' => Chefetablissement::class, 
+            'model' => Chefetablissement::class,
         ],
 
         // 'users' => [
